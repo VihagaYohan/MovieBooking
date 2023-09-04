@@ -51,6 +51,10 @@
 		153F01512AA6071E007D6485 /* MovieBooking */ = {
 			isa = PBXGroup;
 			children = (
+				153F01602AA60735007D6485 /* UI */,
+				153F01612AA6073D007D6485 /* Data */,
+				153F01632AA6074D007D6485 /* Views */,
+				153F01622AA60744007D6485 /* Buttons */,
 				153F01522AA6071E007D6485 /* MovieBookingApp.swift */,
 				153F01542AA6071E007D6485 /* ContentView.swift */,
 				153F01562AA6071F007D6485 /* Assets.xcassets */,
@@ -65,6 +69,34 @@
 				153F01592AA6071F007D6485 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		153F01602AA60735007D6485 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		153F01612AA6073D007D6485 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		153F01622AA60744007D6485 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		153F01632AA6074D007D6485 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
