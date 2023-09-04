@@ -11,6 +11,7 @@
 		153F01552AA6071E007D6485 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153F01542AA6071E007D6485 /* ContentView.swift */; };
 		153F01572AA6071F007D6485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153F01562AA6071F007D6485 /* Assets.xcassets */; };
 		153F015A2AA6071F007D6485 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153F01592AA6071F007D6485 /* Preview Assets.xcassets */; };
+		153F01652AA6092D007D6485 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153F01642AA6092D007D6485 /* TicketView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		153F01542AA6071E007D6485 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		153F01562AA6071F007D6485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		153F01592AA6071F007D6485 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		153F01642AA6092D007D6485 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		153F01632AA6074D007D6485 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				153F01642AA6092D007D6485 /* TicketView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				153F01652AA6092D007D6485 /* TicketView.swift in Sources */,
 				153F01552AA6071E007D6485 /* ContentView.swift in Sources */,
 				153F01532AA6071E007D6485 /* MovieBookingApp.swift in Sources */,
 			);
