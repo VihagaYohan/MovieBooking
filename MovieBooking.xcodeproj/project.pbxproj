@@ -13,6 +13,8 @@
 		153F015A2AA6071F007D6485 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153F01592AA6071F007D6485 /* Preview Assets.xcassets */; };
 		153F01652AA6092D007D6485 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153F01642AA6092D007D6485 /* TicketView.swift */; };
 		153F01672AA6106C007D6485 /* TicketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153F01662AA6106C007D6485 /* TicketData.swift */; };
+		153F016A2AA6121A007D6485 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153F01692AA6121A007D6485 /* Ticket.swift */; };
+		153F016C2AA61667007D6485 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153F016B2AA61667007D6485 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		153F01592AA6071F007D6485 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		153F01642AA6092D007D6485 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		153F01662AA6106C007D6485 /* TicketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketData.swift; sourceTree = "<group>"; };
+		153F01692AA6121A007D6485 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		153F016B2AA61667007D6485 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		153F01512AA6071E007D6485 /* MovieBooking */ = {
 			isa = PBXGroup;
 			children = (
+				153F01682AA6120D007D6485 /* Cards */,
 				153F01602AA60735007D6485 /* UI */,
 				153F01612AA6073D007D6485 /* Data */,
 				153F01632AA6074D007D6485 /* Views */,
@@ -63,6 +68,7 @@
 				153F01542AA6071E007D6485 /* ContentView.swift */,
 				153F01562AA6071F007D6485 /* Assets.xcassets */,
 				153F01582AA6071F007D6485 /* Preview Content */,
+				153F016B2AA61667007D6485 /* Utils.swift */,
 			);
 			path = MovieBooking;
 			sourceTree = "<group>";
@@ -103,6 +109,14 @@
 				153F01642AA6092D007D6485 /* TicketView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		153F01682AA6120D007D6485 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				153F01692AA6121A007D6485 /* Ticket.swift */,
+			);
+			path = Cards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,8 +191,10 @@
 			files = (
 				153F01652AA6092D007D6485 /* TicketView.swift in Sources */,
 				153F01672AA6106C007D6485 /* TicketData.swift in Sources */,
+				153F016A2AA6121A007D6485 /* Ticket.swift in Sources */,
 				153F01552AA6071E007D6485 /* ContentView.swift in Sources */,
 				153F01532AA6071E007D6485 /* MovieBookingApp.swift in Sources */,
+				153F016C2AA61667007D6485 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
