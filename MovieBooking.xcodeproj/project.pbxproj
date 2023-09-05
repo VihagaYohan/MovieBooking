@@ -15,6 +15,7 @@
 		153F01672AA6106C007D6485 /* TicketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153F01662AA6106C007D6485 /* TicketData.swift */; };
 		153F016A2AA6121A007D6485 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153F01692AA6121A007D6485 /* Ticket.swift */; };
 		153F016C2AA61667007D6485 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153F016B2AA61667007D6485 /* Utils.swift */; };
+		15A7169D2AA6A7A900A9AE3E /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A7169C2AA6A7A900A9AE3E /* Tickets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		153F01662AA6106C007D6485 /* TicketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketData.swift; sourceTree = "<group>"; };
 		153F01692AA6121A007D6485 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		153F016B2AA61667007D6485 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		15A7169C2AA6A7A900A9AE3E /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				153F01692AA6121A007D6485 /* Ticket.swift */,
+				15A7169C2AA6A7A900A9AE3E /* Tickets.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				153F01552AA6071E007D6485 /* ContentView.swift in Sources */,
 				153F01532AA6071E007D6485 /* MovieBookingApp.swift in Sources */,
 				153F016C2AA61667007D6485 /* Utils.swift in Sources */,
+				15A7169D2AA6A7A900A9AE3E /* Tickets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
